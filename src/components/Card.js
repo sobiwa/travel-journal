@@ -43,7 +43,7 @@ export default function Card(props) {
   return (
     <div className="card">
       <img className="card--image" src={props.imageUrl} width='200px' alt="location" />
-      <div class="info">
+      <div className="info">
         <LocationDetails {...props} />
         <TrackDetails {...props} />
       </div>

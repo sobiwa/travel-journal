@@ -4,13 +4,13 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
 
-  // change to production when complete
-  mode: 'development',
+  mode: 'production',
   entry: './src/index.js',
   plugins: [
     new HtmlWebpackPlugin({
       title: 'travel-journal',
       template: './src/template.html',
+      favicon: './src/assets/favicon.ico'
     }),
   ],
   devtool: 'inline-source-map',

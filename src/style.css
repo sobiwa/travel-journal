@@ -25,16 +25,17 @@ body {
 .main {
   display: flex;
   flex-direction: column;
-  gap: 36px;
   align-items: center;
   margin-top: 45px;
 }
 
 .card {
+  padding: 20px 0;
   display: flex;
   align-items: center;
   max-width: 600px;
   column-gap: 10px;
+  border-bottom: 1px solid #F5F5F5;
 }
 
 .card--image {
