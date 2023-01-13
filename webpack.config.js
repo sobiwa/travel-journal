@@ -9,8 +9,7 @@ module.exports = {
   entry: './src/index.js',
   plugins: [
     new HtmlWebpackPlugin({
-      // add title
-      title: '',
+      title: 'travel-journal',
       template: './src/template.html',
     }),
   ],

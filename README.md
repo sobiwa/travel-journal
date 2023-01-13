@@ -1,2 +1,3 @@
-# template
-with webpack, babel, eslint, jest, and prettier
+# travel-journal
+
+made with React
